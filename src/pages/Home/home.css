@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.bgimage {
+  background-image: url("https://cdn.theatlantic.com/media/img/photo/2017/06/beauty-and-color-scenes-from-ethiop/e01_133860147-1/original.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/* Second page css */
+
+.sendPageHeader {
+  padding-top: 50px;
+  text-align: center;
+}
+.color-shadow {
+  text-shadow: black 1px 0 10px;
+}
+
+.mainCont {
+  height: auto;
+}
+
+.subMain {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+.subMain .one {
+  width: 50%;
+}
+.subMain .two {
+  width: 50%;
+}
+.imageWrapper > img {
+  width: 270px;
+  height: 350px;
+  padding: 10px;
+  object-fit: cover;
+}
+.imageWrapper > img:first-child {
+  position: absolute;
+  left: 0;
+  top: -20px;
+}
+.imageWrapper > img:last-child {
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+.imageWrapper {
+  width: 530px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.img {
+  flex-wrap: wrap;
+  border-radius: 30px;
+}
+/*  */
+
+/* Second page css */
+/*  */
+/*  */
+/*  */
+/*  */
+
+/*  */
+/*  */
+/*  */
+/*  */
+/* third page css */
+.thirdCont {
+  display: flex;
+  justify-content: center;
+  height: 450px;
+}
+.listWrapper {
+  width: 350px;
+  height: 430px;
+  margin-left: 10px;
+  padding: 30px;
+  list-style: none;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 7px 7px 10px black;
+  transition: transform 0.3s ease;
+}
+.listWrapper:hover {
+  cursor: pointer;
+  transform: scale(0.98);
+}
+.Thirdimage {
+  object-fit: cover;
+  width: 300px;
+  height: 170px;
+  border-radius: 10px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* third page css */
+/*  */
+/*  */
+/*  */
+/*  */
